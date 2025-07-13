@@ -8,6 +8,7 @@ you can create an interactive and engaging tic-tac-toe game. With these technolo
 users can play against each other or against an AI opponent, aiming to get three markers in a row to win the game.
 
 PNG Assets - https://www.cleanpng.com/
+
 Sound Assets - https://www.mixkit.co/
 
 Live View : https://izueno.github.io/PRODIGY_WD_03/
