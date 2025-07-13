@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tic-Tac-Toe Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <label><input type="checkbox" id="ai-toggle" /> Play against AI?</label>
+
+  <div id="game-board"></div>
+  <div id="status"></div>
+  <button onclick="resetGame()">Restart</button>
+
+  <!-- Winner Popup -->
+  <div id="winner-popup">
+    <p id="popup-message"></p>
+  </div>
+
+  <!-- Sound Effects -->
+  <audio id="click-sound" src="assets/click.mp3"></audio>
+  <audio id="win-sound" src="assets/win.mp3"></audio>
+  <audio id="draw-sound" src="assets/draw.mp3"></audio>
+
+  <script src="main.js"></script>
+</body>
+</html>
